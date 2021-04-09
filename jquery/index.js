@@ -24,12 +24,14 @@ $(function () {
             return content;
         },
         visible: true,
+        closeOnOutsideClick: true,
         showTitle: true,
         title: "Information",
         width: 500,
         height: 500,
+        resizeEnabled: true,
         dragEnabled: true,
-        closeOnOutsideClick: true
+        position: "center"
     });
 
     const popup = $("#popup").dxPopup("instance");

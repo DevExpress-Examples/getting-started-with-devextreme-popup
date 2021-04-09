@@ -10,7 +10,9 @@
         title="Information"
         :height="500"
         :width="500"
+        :resize-enabled="true"
         :drag-enabled="true"
+        position="center"
     >
         <template #content>
             <DxScrollView
@@ -36,7 +38,7 @@
 </template>
 
 <script>
-import { DxButton, DxPopup, DxScrollView } from "devextreme-vue/";
+import { DxButton, DxPopup, DxScrollView } from "devextreme-vue";
 
 
 export default {
