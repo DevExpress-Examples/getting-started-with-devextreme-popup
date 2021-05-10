@@ -1,18 +1,18 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-    selector: "app-root",
-    templateUrl: "./app.component.html",
-    styleUrls: ["./app.component.css"]
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    isPopupVisible: boolean;
+  isPopupVisible: boolean;
 
-    constructor() {
-        this.isPopupVisible = true;
-    }
+  constructor() {
+      this.isPopupVisible = true;
+  }
 
-    togglePopup(): void {
-        this.isPopupVisible = !this.isPopupVisible;
-    }
+  togglePopup(): void {
+      this.isPopupVisible = !this.isPopupVisible;
+  }
 }

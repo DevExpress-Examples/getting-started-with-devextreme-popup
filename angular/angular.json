@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "getting-started-with-popup": {
+    "Angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,7 +17,7 @@
               "devextreme",
               "devextreme-angular"
             ],
-            "outputPath": "dist/getting-started-with-popup",
+            "outputPath": "dist/Angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -45,7 +45,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -68,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "getting-started-with-popup:build"
+            "browserTarget": "Angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "getting-started-with-popup:build:production"
+              "browserTarget": "Angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "getting-started-with-popup:build"
+            "browserTarget": "Angular:build"
           }
         },
         "test": {
@@ -116,16 +115,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "getting-started-with-popup:serve"
+            "devServerTarget": "Angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "getting-started-with-popup:serve:production"
+              "devServerTarget": "Angular:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "getting-started-with-popup"
+  "defaultProject": "Angular"
 }
