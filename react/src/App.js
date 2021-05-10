@@ -4,7 +4,9 @@ import logo from "./assets/images/dx-logo.png";
 import "devextreme/dist/css/dx.common.css";
 import "devextreme/dist/css/dx.light.css";
 
-import { Popup, Button, ScrollView } from "devextreme-react";
+import { Popup } from "devextreme-react/ui/popup";
+import { Button } from "devextreme-react/ui/button";
+import { ScrollView } from "devextreme-react/ui/scroll-view";
 
 const renderContent = () => {
     return (
