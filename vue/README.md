@@ -1,4 +1,6 @@
-# getting-started-with-list
+# Getting Started with DevExtreme Vue Popup
+
+This repository stores Vue source code for the [Getting Started with Popup](https://js.devexpress.com/Documentation/Guide/UI_Components/Popup/Getting_Started_with_Popup/) tutorial.
 
 ## Project setup
 ```

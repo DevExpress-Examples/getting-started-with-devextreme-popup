@@ -4,9 +4,9 @@ import logo from "./assets/images/dx-logo.png";
 import "devextreme/dist/css/dx.common.css";
 import "devextreme/dist/css/dx.light.css";
 
-import { Popup } from "devextreme-react/ui/popup";
-import { Button } from "devextreme-react/ui/button";
-import { ScrollView } from "devextreme-react/ui/scroll-view";
+import { Popup } from "devextreme-react/popup";
+import { Button } from "devextreme-react/button";
+import { ScrollView } from "devextreme-react/scroll-view";
 
 const renderContent = () => {
     return (
@@ -65,8 +65,8 @@ const App = () => {
                 height={500}
                 resizeEnabled={true}
                 dragEnabled={true}
-                position="center">
-            </Popup>
+                position="center"
+            />
         </>
     );
 };

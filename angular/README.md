@@ -1,8 +1,6 @@
-# Angular
+# Getting Started with DevExtreme Angular Popup
 
-Take a look at the following files of this example to see the required code: 
-
-Your files go here
+This repository stores Angular source code for the [Getting Started with Popup](https://js.devexpress.com/Documentation/Guide/UI_Components/Popup/Getting_Started_with_Popup/) tutorial.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
