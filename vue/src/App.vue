@@ -6,7 +6,7 @@
         />
         <DxPopup
             v-model:visible="isPopupVisible"
-            :close-on-outside-click="true"
+            :hide-on-outside-click="true"
             :show-title="true"
             title="Information"
             :height="500"

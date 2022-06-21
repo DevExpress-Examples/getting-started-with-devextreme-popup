@@ -57,7 +57,7 @@ const App = () => {
             <Popup
                 contentRender={renderContent}
                 visible={isPopupVisible}
-                closeOnOutsideClick={true}
+                hideOnOutsideClick={true}
                 onHiding={togglePopup}
                 showTitle={true}
                 title="Information"
