@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +6,13 @@ import { ClickEvent } from 'devextreme/ui/button';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Angular';
+  isPopupVisible: boolean;
 
-  counter = 0;
+  constructor() {
+    this.isPopupVisible = true;
+  }
 
-  buttonText = 'Click count: 0';
-
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
+  togglePopup(): void {
+    this.isPopupVisible = !this.isPopupVisible;
   }
 }

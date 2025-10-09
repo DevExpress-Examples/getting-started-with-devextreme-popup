@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import HomeContent from '../components/HomeContent.vue';
+import PopupContent from '../components/PopupContent.vue';
 </script>
 
 <template>
-  <HomeContent text="Count"/>
+  <PopupContent/>
 </template>
 

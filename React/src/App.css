@@ -1,4 +1,5 @@
-.main {
-  margin: 50px;
-  width: 90vw;
+img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
