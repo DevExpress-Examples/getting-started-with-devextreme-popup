@@ -2,3 +2,4 @@
 *.css
 .github
 src/images
+src/devextreme-license.ts
